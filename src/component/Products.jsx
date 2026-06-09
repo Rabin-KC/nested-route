@@ -3,7 +3,7 @@ import {BrowserRouter, Routes, Route, Link, NavLink,useParams} from 'react-route
 function Products({list}){
 return(
     <>
-    <h1>Product List</h1>
+    <h1>Product List New </h1>
     <div className="product-list">
     {
         list.map((product) => (
